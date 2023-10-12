@@ -29,7 +29,7 @@ const About = () => {
       className='flex-1'>
         <h2 className='h2 text-accent'>About me.</h2>
         <h3 className='h3 mb-4'>
-          I'm a Freelance full stack Developer with over 1 year of experience.
+          I'm a full stack Developer with over 1 year of experience.
         </h3>
         <p mb-6>A full stack developer is a software engineer who has the skills and expertise to work on both the front-end and back-end parts of a web application. They are responsible for designing, developing, testing, and maintaining the entire web application stack, including the user interface, server-side logic, and database.</p>
         <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
@@ -63,7 +63,7 @@ const About = () => {
         </div>
         <div className='flex gap-x-8 items-center'>
           <button className='btn btn-lg'>Contact me</button>
-          <a href='#' className='text-gradient btn-link'>
+          <a href='#'className='text-gradient btn-link'>
             My Portfolio
           </a>
         </div>

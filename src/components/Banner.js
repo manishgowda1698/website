@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from '../assets/avatar.svg';
+import Image from '../assets/manish.jpeg';
 
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
 
@@ -21,14 +21,14 @@ const Banner = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.7}}
-          className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>MANISH <span>GOWDA</span>
+          className='text-[50px] font-bold leading-[0.8] lg:text-[90px]'>MANISH <span>GOWDA</span>
           </motion.h1>
           <motion.div
           variants={fadeIn('up',0.4)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.7}}
-           className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
+           className='mb-6 text-[36px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
             <span className=' text-white mr-4'>I am a</span>
             <TypeAnimation sequence={[
               'Developer',
@@ -84,7 +84,7 @@ const Banner = () => {
         variants={fadeIn('down',0.5)}
         initial='hidden'
         whileInView={'show'}
-        className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
+        className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]s'>
           <img src={Image} alt=''/>
         </motion.div>
       </div>
@@ -93,5 +93,6 @@ const Banner = () => {
   </section>
   )
 };
+
 
 export default Banner;

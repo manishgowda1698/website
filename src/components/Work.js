@@ -34,7 +34,7 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UI/UX Design</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>Manish Profile</span>
             </div>
           </div>
         </motion.div>
@@ -51,7 +51,7 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UI/UX Design</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>E-Commerce Application</span>
             </div>
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
@@ -61,7 +61,7 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UI/UX Design</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>Order Management System</span>
             </div>
           </div>
         </motion.div>
